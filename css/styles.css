@@ -1,0 +1,13 @@
+#processingMessage {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+  display: none;
+  color: #fff;
+  background-color: red;
+  font-weight: bold;
+}
