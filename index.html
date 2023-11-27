@@ -1,45 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>BigO | Search and Time Analysis</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="./images/favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="./images/favicon/favicon-16x16.png"
-    />
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="./css/styles.css" />
-  </head>
-  <body>
-    <div id="processingMessage">Processing...</div>
-    <h2>Search Algorithm Test</h2>
-    <input type="number" id="dataSizeInput" placeholder="Data size" />
-    <select id="searchType">
-      <option value="constant">O(1) - Constant Search</option>
-      <option value="binary">O(log n) - Binary Search</option>
-      <option value="linear">O(n) - Linear Search</option>
-      <option value="mergeSort">O(n log n) - Merge Sort</option>
-      <option value="bubbleSort">O(n²) - Bubble Sort</option>
-    </select>
-    <input type="number" id="searchItem" placeholder="Number to be found" />
-    <button onclick="performSearch()">Search</button>
-    <button onclick="resetApplication()">Restart</button>
+    <head>
+        <title>Big O | Search and Time Analysis</title>
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./images/favicon/apple-touch-icon.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon/favicon-32x32.png"
+        />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="16x16"
+            href="./images/favicon/favicon-16x16.png"
+        />
+        <link rel="shortcut icon" href="images/favicon/favicon.ico" />
+        <link rel="stylesheet" type="text/css" href="./css/styles.css" />
+    </head>
+    <body>
+        <div id="processingMessage">Processing...</div>
+        <h2>Search Algorithm Test</h2>
+        <input type="number" id="dataSizeInput" placeholder="Data size" />
+        <select id="searchType">
+            <option value="constant">O(1) - Constant Search</option>
+            <option value="binary">O(log n) - Binary Search</option>
+            <option value="linear">O(n) - Linear Search</option>
+            <option value="mergeSort">O(n log n) - Merge Sort</option>
+            <option value="bubbleSort">O(n²) - Bubble Sort</option>
+        </select>
+        <input type="number" id="searchItem" placeholder="Number to be found" />
+        <button onclick="performSearch()">Search</button>
+        <button onclick="resetApplication()">Restart</button>
 
-    <canvas id="timeChart" width="400" height="200"></canvas>
+        <canvas id="timeChart" width="400" height="200"></canvas>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="./js/search.js"></script>
-  </body>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="./js/search.js"></script>
+    </body>
 </html>
